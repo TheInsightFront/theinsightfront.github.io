@@ -31,13 +31,13 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Webclip icon for your website (//TheInsightProject//). Version 1.1 com.cttapp.12d3eab95911d6990ff1b37b8c861889</string>
+	<string>Webclip icon for //TheInsightProject//. Version 1.1 com.cttapp.12d3eab95911d6990ff1b37b8c861889</string>
 	<key>PayloadDisplayName</key>
 	<string>Website Profile for //TheInsightProject//</string>
 	<key>PayloadIdentifier</key>
 	<string>com.cttapp.12d3eab95911d6990ff1b37b8c861889</string>
 	<key>PayloadOrganization</key>
-	<string>Christian Turkoanje</string>
+	<string>//TheInsightProject//</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
