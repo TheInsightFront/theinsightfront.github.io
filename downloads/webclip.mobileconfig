@@ -35,7 +35,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Website Profile for //TheInsightProject//</string>
 	<key>PayloadIdentifier</key>
-	<string>com.cttapp.12d3eab95911d6990ff1b37b8c861889</string>
+	<string>com.TheInsightProject.WebClip</string>
 	<key>PayloadOrganization</key>
 	<string>//TheInsightProject//</string>
 	<key>PayloadRemovalDisallowed</key>
