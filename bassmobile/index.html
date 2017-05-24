@@ -1,48 +1,70 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 	<head>
-		<title>//TheInsightFront//BassDrops//</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>//TheInsightProject//BassDrops</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />		
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
+		<script src="js/modernizr.custom.25376.js"></script>
 	</head>
 	<body class="loading">
-		<div id="wrapper">
+		<div id="perspective" class="perspective effect-rotatetop">
+			<div class="container">
+		<div class="wrapper"><!-- wrapper needed for scroll -->
+            <body scroll="no" style="overflow: hidden">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
-
-				<!-- Header -->
+				
+			    <!-- Header -->
 					<header id="header">
 						<h1>//TheInsightProject//</h1>
+						<p><button id="showMenu">Show Menu</button></p>
 						<p>Insight For All The People &nbsp;&bull;&nbsp; iOS Development &nbsp;&bull;&nbsp; Coding</p>
-						<iframe src="https://open.spotify.com/embed/user/a1phapha530n3/playlist/4sUmImmk2omh1wBztzWLqH" width="319" height="454" frameborder="0" allowtransparency="true"></iframe>
+                    	<iframe src="https://open.spotify.com/embed/user/a1phapha530n3/playlist/4sUmImmk2omh1wBztzWLqH" width="319" height="454" frameborder="0" allowtransparency="true"></iframe>
+						<p><button id="showMenu">Show Menu</button></p>
 					</header>
 
+					</div><!-- /main -->
+				</div><!-- wrapper -->
+			</div><!-- /container -->
+			<nav class="outer-nav bottom horizontal">
+				<a href="http://theinsightfront.github.io" class="icon-home">Home</a>
+				<a href="http://theinsightfront.github.io/random" class="icon-news">Useless Web</a>
+				<a href="http://theinsightfront.github.io/visualizer" class="icon-image">Soundcloud Visualizer</a>
+				<a href="http://theinsightfront.github.io/internetnoise" class="icon-upload">Internet Noise</a>
+				<a href="http://theinsightfront.github.io/downloads" class="icon-star">Downloads</a>
+				<a href="http://theinsightfront.github.io/confusing" class="icon-news">Weird Or Confusing</a>
+				<a href="http://theinsightfront.github.io/bass" class="icon-news">Music Player (Desktop)</a>
+				<a href="http://theinsightfront.github.io/bassmobile" class="icon-news">Music Player (Mobile)</a>			
+			</nav>
+		</div><!-- /perspective -->
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
+		
 				<!-- Footer -->
 					<footer id="footer">
 						<span class="copyright">&copy; //TheInsightFront//. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+				        </footer>
+		                
+				<!-- JS -->
+					<script type="text/javascript" src="js/fairyDustCursor.js"></script>		
+		
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->	
 		<script>
 			window.onload = function() { document.body.className = ''; }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
-	
-				<!-- JS -->
-                    <script type="text/javascript" src="js/fairyDustCursor.js"></script>	
-	
 	</body>
 </html>
