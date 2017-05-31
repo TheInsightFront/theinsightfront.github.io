@@ -71,7 +71,11 @@
                 </script>		
 				
         <!--Sentry.io Javascript!-->
-		<script src="https://cdn.ravenjs.com/3.15.0/raven.min.js"></script>				
+        <script src="jquery.js"></script>
+        <script src="https://cdn.ravenjs.com/3.15.0/raven.min.js" crossorigin="anonymous"></script>
+        <script>Raven.config('https://3a1af43ab74541c5ba33fc94a71948bb@sentry.io/174446').install();</script>
+        <script src="app.js"></script>
+		
 		
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->	
 		<script>
